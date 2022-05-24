@@ -1,0 +1,285 @@
+.slider {
+    margin-top: var(--header-height);
+    width: 100%;
+    position: relative;
+}
+
+.slider-imgs__list {
+    
+}
+
+.slider-img__item {
+    height: fit-content;
+}
+
+.slider__img {
+    width: 100%;
+}
+
+.arrow-left__icon, .arrow-right__icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3.0rem;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: backgroundColor linear 0.2s, color linear 0.2s;
+}
+
+.arrow-left__icon:hover, .arrow-right__icon:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.arrow-left__icon {
+    left: 8px;
+}
+
+.arrow-right__icon {
+    right: 8px;
+}
+
+/* slider index list */
+
+.indexs__list {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.index__item {
+    font-size: 1.6rem;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.index__item i {
+    display: none;
+    color: var(--primary-color);
+}
+
+.index__item i:first-child {
+    display: block;
+}
+
+.index__item.active i:first-child {
+    display: none;
+}
+
+.index__item.active i:nth-child(2) {
+    display: block;
+}
+
+/* content */
+
+.content__wrapper {
+    margin-top: 0;
+}
+
+/* news */
+
+.news__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.new__item {
+    width: 50%;
+    display: flex;
+    background-color: var(--white-color);
+    padding: 8px;
+}
+.new__img {
+    width: 120px;
+    height: 120px;
+    margin-right: 8px;
+}
+.new__content {
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+}
+.new__title {
+    width: 100%;
+    margin-bottom: 8px;
+    font-size: 2.4rem;
+    color: var(--black-color);
+}
+.new__subtitle {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: var(--text-color);
+}
+
+/* achievement */
+
+.achievement__wrapper, .exper__wrapper {
+    background-color: #cccccc;
+    padding: 32px 0;
+}
+
+.achieve__title, .exper__title, .desti__title {
+    font-size: 3.2rem;
+    font-weight: 500;
+    padding: 32px 0;
+    color: var(--primary-color);
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.achievement__list, .exper__list {
+    display: flex;
+}
+
+.achieve__item, .exper__item {
+    width: 33.3333%;
+}
+
+.achieve__item__inner, .exper__item__inner {
+    width: 80%;
+    margin: auto;
+    padding: 16px;
+    background-color: var(--white-color);
+}
+
+.achieve__img, .exper__img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.achieve__content {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-and-score {
+    display: flex;
+    justify-content: space-between;
+}
+
+.achieve__name, .achieve__score, .achieve__school, .achieve__year { 
+    font-size: 1.6rem;
+    line-height: 2.0rem;
+    color: var(--primary-color);
+}
+
+.achieve__name {
+
+}
+
+.achieve__score {
+
+}
+
+.achieve__school {
+
+}
+
+.achieve__year {
+
+}
+
+/* experience */
+
+.exper__item {
+}
+
+.exper__item__inner {
+    position: relative;
+    background-color: var(--primary-color);
+}
+
+.icon-and-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.exper__icon {
+    font-size: 2.4rem;
+    color: var(--white-color);
+    margin-right: 8px;
+}
+
+.exper__text {
+    font-size: 1.6rem;
+    color: var(--white-color);
+}
+
+.exper__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.exper__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.exper__name, .exper__school, .exper__year {
+    color: var(--white-color);
+    font-weight: 500;
+    width: fit-content;
+}
+
+.exper__name {
+
+}
+
+.exper__school {
+
+}
+
+.exper__year {
+
+}
+
+.exper__img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+/* destination */
+
+.desti__wrapper {
+    padding: 32px 0;
+}
+.desti__title {
+    text-align: center;
+}
+.desti_logo__list {
+    display: flex;
+    padding: 0 80px;
+    position: relative;
+}
+.desti_logo__item {
+    
+}
+.desti_logo__img {
+    width: 100%;
+    padding: 0 40px;
+}
+
+/* contact */
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+.contact__info {
+
+}
+.contact__img {
+    width: 50%;
+}
