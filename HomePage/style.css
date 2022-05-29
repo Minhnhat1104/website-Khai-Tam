@@ -9,7 +9,22 @@
 }
 
 .slider-img__item {
+    display: none;
     height: fit-content;
+    animation: showOut linear 0.5s;
+}
+
+@keyframes showOut {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.slider-img__item.active {
+    display: block;
 }
 
 .slider__img {
@@ -197,6 +212,7 @@
 .exper__item__inner {
     position: relative;
     background-color: var(--primary-color);
+    height: 440px;
 }
 
 .icon-and-text {
@@ -213,6 +229,7 @@
 .exper__text {
     font-size: 1.6rem;
     color: var(--white-color);
+    height: 60%;
 }
 
 .exper__content {
@@ -260,15 +277,26 @@
 }
 .desti_logo__list {
     display: flex;
-    padding: 0 80px;
+    margin: 0 80px;
     position: relative;
+    max-width: 100%;
+    /* flex-wrap: nowrap; */
+    overflow-x: hidden;
 }
 .desti_logo__item {
-    
+    /* flex-grow: 1; */
+    /* flex-shrink: 0; */
+    /* height: 140px; */
+    display: flex;
 }
-.desti_logo__img {
-    width: 100%;
+.desti_logo__img {  
+    display: block;
+    margin: auto;
+    width: 250px;
     padding: 0 40px;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
 }
 
 /* contact */

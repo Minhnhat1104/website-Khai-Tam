@@ -1,0 +1,28 @@
+.post__wrapper {
+    padding: 20px 0;
+}
+
+.post__title {
+    text-align: center;
+    font-size: 3.0rem;
+    padding: 20px 0;
+}
+.post__text {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--black-color);
+    text-align: justify;
+    display: block;
+}
+.post__img {
+    padding: 20px 0;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+}
+.post__source {
+    text-align: center;
+    padding: 12px 0;
+    font-weight: 500;
+    /* display: block; */
+}

@@ -10,8 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/icons/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.min.css">
-    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="/assets/icons/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="stylesheet" href="/Header_And_Footer/style.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -21,7 +22,7 @@
             <div id="header">
                 <!-- logo -->
                 <a href="/HomePage" class="logo__link">
-                    <img src="../assets/images/logoKhaiTam.png" alt="Logo__img" class="header__logo">
+                    <img src="/assets/images/logoKhaiTam.png" alt="Logo__img" class="header__logo">
                 </a>
 
                 <!--begin nav-->
@@ -140,11 +141,12 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
         <div class="content__wrapper">
-            <div class="content__inner"></div>
+            <div class="content__inner">
+
+            </div>
         </div>
 
         <div class="footer__wrapper">
@@ -174,5 +176,6 @@
         </div>
     </div>
 </body>
+<script src='./index.js' type="module"></script>
 
 </html>

@@ -26,6 +26,14 @@ body {
     text-rendering: optimizeSpeed;
 }
 
+#main {
+    min-height: 100wh;
+}
+
+.footer__wrapper {
+    margin-bottom: 0;
+}
+
 li {
     display: block;
     list-style-type: none;
