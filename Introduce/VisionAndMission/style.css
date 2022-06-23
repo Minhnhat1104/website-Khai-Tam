@@ -1,0 +1,35 @@
+
+.content__wrapper {
+    padding: 40px 0;
+}
+
+.content__title {
+    font-size: 3.0rem;
+    color: var(--primary-color);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.list {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.item {
+    list-style-type: none;
+    padding-left: 40px;
+}
+
+.subList__title {
+    color: var(--primary-color);
+    padding: 8px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.subList__item {
+    display: list-item;
+    list-style-type: disc;
+    text-align: justify;
+}

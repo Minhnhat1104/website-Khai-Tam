@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/assets/css/base.css">
     <link rel="stylesheet" href="/Header_And_Footer/style.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/Header_And_Footer/responsive.css">
 </head>
 
 <body>
@@ -49,7 +50,7 @@
                                         <a href="/Introduce/Teachers" class="subnav__link">Đội ngũ giáo viên</a>
                                     </li>
                                     <li class="subnav__item">
-                                        <a href="/Introduce/License" class="subnav__link">Giấy phép hoạt động</a>
+                                        <a href="/Introduce/License" class="subnav__link">Trải nghiệm của học sinh</a>
                                     </li>
                                     <li class="subnav__item">
                                         <a href="/Introduce/Infrastructure" class="subnav__link">Cơ sở vật chất</a>
@@ -140,6 +141,115 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- mobile nav -->
+                <!-- mobile nav -->
+                <label for="nav__input" class="menuBtn--mobile">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <input id="nav__input" type="checkbox">
+                <div class="navbar__modal"></div>
+                <ul class="navbar__list--mobile">
+                    <h2 class="nav___header--mobile">
+                        Menu
+                        <i class="navClose--mobile fas fa-times"></i>
+                    </h2>
+                    <li class="nav__item--mobile">
+                        Giới thiệu
+                        <i class="down-icon fas fa-angle-down"></i>
+                        <ul class="subnav__list--mobile">
+                            <li class="subnav__item--mobile">
+                                <a href="/Introduce/VisionAndMission" class="subnav__link">Tầm nhìn và sứ
+                                    mệnh</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Introduce/Teachers" class="subnav__link">Đội ngũ giáo viên</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Introduce/License" class="subnav__link">Trải nghiệm của học sinh</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Introduce/Infrastructure" class="subnav__link">Cơ sở vật chất</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Introduce/Achievement" class="subnav__link">Thành tích</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Introduce/Experience" class="subnav__link">Trải nghiệm ở Khai Tâm</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav__item--mobile">
+                        Tuyển sinh
+                        <i class="down-icon fas fa-angle-down"></i>
+                        <ul class="subnav__list--mobile">
+                            <li class="subnav__item--mobile">
+                                <a href="/Enrollment/CurrentYear" class="subnav__link">Năm học 2022-2023</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Enrollment/Offer" class="subnav__link">Ưu đãi</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Enrollment/Ielts" class="subnav__link">Ielts</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Enrollment/ProficiencyAssessment" class="subnav__link">Đánh giá năng
+                                    lực</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav__item--mobile">
+                        Tin tức
+                        <i class="down-icon fas fa-angle-down"></i>
+                        <ul class="subnav__list--mobile">
+                            <li class="subnav__item--mobile">
+                                <a href="/News/Education" class="subnav__link">Giáo dục chính thống</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/News/KhaiTamAcademy" class="subnav__link">Trung tâm Khai Tâm</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav__item--mobile">
+                        Thời khóa biểu
+                        <i class="down-icon fas fa-angle-down"></i>
+                        <ul class="subnav__list--mobile">
+                            <li class="subnav__item--mobile">
+                                <a href="/Timetable/Grade6" class="subnav__link">Lớp 6</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Timetable/Grade7" class="subnav__link">Lớp 7</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Timetable/Grade8" class="subnav__link">Lớp 8</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Timetable/Grade9" class="subnav__link">Lớp 9</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Timetable/Grade10" class="subnav__link">Lớp 10</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Timetable/Grade11" class="subnav__link">Lớp 11</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Timetable/Grade12" class="subnav__link">Lớp 12</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav__item--mobile">
+                        <a href="/Activities">Hoạt động</a>
+                    </li>
+                    <li class="nav__item--mobile">
+                        <a href="/Contact">Liên hệ</a>
+                    </li>
+                    <li class="nav__item--mobile">
+                        <a href="https://ielts-vuive.com/">Ietls</a>
+                    </li>
+                    <li class="nav__item--mobile">
+                        <a href="https://dgnlkhaitam.edubit.vn/">Đánh giá năng lực</a>
+                    </li>
+                </ul>
             </div>
         </div>
 
@@ -156,19 +266,19 @@
                     <li class="social__item">
                         <a class="social__link" href="https://www.facebook.com/luyenthikhaitam">
                             <i class="social__icon fab fa-facebook"></i>
-                            Facebook
+                            <span class="social__text">Facebook</span>
                         </a>
                     </li>
                     <li class="social__item">
                         <a class="social__link" href="tel: +0909611861">
                             <i class="social__icon fas fa-phone-alt"></i>
-                            Điện thoại
+                            <span class="social__text">Điện thoại</span>
                         </a>
                     </li>
                     <li class="social__item">
                         <a class="social__link" href="mailto:luyenthikhaitam@gmail.com">
                             <i class="social__icon fas fa-envelope"></i>
-                            Gmail
+                            <span class="social__text">Gmail</span>
                         </a>
                     </li>
                 </ul>
@@ -176,6 +286,7 @@
         </div>
     </div>
 </body>
+<script src='/Header_And_Footer/index.js'></script>
 <script src='./index.js' type="module"></script>
 
 </html>

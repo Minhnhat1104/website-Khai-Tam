@@ -3,7 +3,7 @@
     --white-color: #fff;
     --primary-color: #127499;
     --border-color: #085b79;    
-    --text-color: #333;
+    --text-color: rgb(22, 24, 32);
     --header-width: 1200px;
     --header-height: 112px;
 }
@@ -19,11 +19,28 @@ html{
     font-size: 62.5%;
 }
 
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
+    overflow-y: overlay;
+    color: var(--text-color);
 }
 
 #main {

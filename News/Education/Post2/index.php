@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/assets/css/base.css">
     <link rel="stylesheet" href="/Header_And_Footer/style.css">
     <link rel="stylesheet" href="/assets/css/posts.css">
+    <link rel="stylesheet" href="/Header_And_Footer/responsive.css">
 </head>
 
 <body>
@@ -49,7 +50,7 @@
                                         <a href="/Introduce/Teachers" class="subnav__link">Đội ngũ giáo viên</a>
                                     </li>
                                     <li class="subnav__item">
-                                        <a href="/Introduce/License" class="subnav__link">Giấy phép hoạt động</a>
+                                        <a href="/Introduce/License" class="subnav__link">Trải nghiệm của học sinh</a>
                                     </li>
                                     <li class="subnav__item">
                                         <a href="/Introduce/Infrastructure" class="subnav__link">Cơ sở vật chất</a>
@@ -156,19 +157,19 @@
                     <li class="social__item">
                         <a class="social__link" href="https://www.facebook.com/luyenthikhaitam">
                             <i class="social__icon fab fa-facebook"></i>
-                            Facebook
+                            <span class="social__text">Facebook</span>
                         </a>
                     </li>
                     <li class="social__item">
                         <a class="social__link" href="tel: +0909611861">
                             <i class="social__icon fas fa-phone-alt"></i>
-                            Điện thoại
+                            <span class="social__text">Điện thoại</span>
                         </a>
                     </li>
                     <li class="social__item">
                         <a class="social__link" href="mailto:luyenthikhaitam@gmail.com">
                             <i class="social__icon fas fa-envelope"></i>
-                            Gmail
+                            <span class="social__text">Gmail</span>
                         </a>
                     </li>
                 </ul>
@@ -176,6 +177,7 @@
         </div>
     </div>
 </body>
+<script src='/Header_And_Footer/index.js'></script>
 <script src="./index.js" type="module"></script>
 
 </html>

@@ -1,0 +1,22 @@
+
+.content__title {
+    font-size: 3.0rem;
+    color: var(--primary-color);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.content__body, .content__footer {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+.content__footer {
+    text-align: center;
+    padding: 16px 0;
+    font-style: italic;
+}
+

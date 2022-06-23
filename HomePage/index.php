@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="../Header_And_Footer/style.css">
     <link rel="stylesheet" href="../assets/css/base.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/Header_And_Footer/responsive.css">
 </head>
 
 <body>
@@ -49,7 +50,7 @@
                                         <a href="/Introduce/Teachers" class="subnav__link">Đội ngũ giáo viên</a>
                                     </li>
                                     <li class="subnav__item">
-                                        <a href="/Introduce/License" class="subnav__link">Giấy phép hoạt động</a>
+                                        <a href="/Introduce/License" class="subnav__link">Trải nghiệm của học sinh</a>
                                     </li>
                                     <li class="subnav__item">
                                         <a href="/Introduce/Infrastructure" class="subnav__link">Cơ sở vật chất</a>
@@ -140,6 +141,115 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- mobile nav -->
+                <label for="nav__input" class="menuBtn--mobile">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <input id="nav__input" type="checkbox">
+                <div class="navbar__modal"></div>
+                <ul class="navbar__list--mobile">
+                    <h2 class="nav___header--mobile">
+                        Menu
+                        <i class="navClose--mobile fas fa-times"></i>
+                    </h2>
+                    <li class="nav__item--mobile">
+                        Giới thiệu
+                        <i class="down-icon fas fa-angle-down"></i>
+                        <ul class="subnav__list--mobile">
+                            <li class="subnav__item--mobile">
+                                <a href="/Introduce/VisionAndMission" class="subnav__link">Tầm nhìn và sứ
+                                    mệnh</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Introduce/Teachers" class="subnav__link">Đội ngũ giáo viên</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Introduce/License" class="subnav__link">Trải nghiệm của học sinh</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Introduce/Infrastructure" class="subnav__link">Cơ sở vật chất</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Introduce/Achievement" class="subnav__link">Thành tích</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Introduce/Experience" class="subnav__link">Trải nghiệm ở Khai Tâm</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav__item--mobile">
+                        Tuyển sinh
+                        <i class="down-icon fas fa-angle-down"></i>
+                        <ul class="subnav__list--mobile">
+                            <li class="subnav__item--mobile">
+                                <a href="/Enrollment/CurrentYear" class="subnav__link">Năm học 2022-2023</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Enrollment/Offer" class="subnav__link">Ưu đãi</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Enrollment/Ielts" class="subnav__link">Ielts</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Enrollment/ProficiencyAssessment" class="subnav__link">Đánh giá năng
+                                    lực</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav__item--mobile">
+                        Tin tức
+                        <i class="down-icon fas fa-angle-down"></i>
+                        <ul class="subnav__list--mobile">
+                            <li class="subnav__item--mobile">
+                                <a href="/News/Education" class="subnav__link">Giáo dục chính thống</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/News/KhaiTamAcademy" class="subnav__link">Trung tâm Khai Tâm</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav__item--mobile">
+                        Thời khóa biểu
+                        <i class="down-icon fas fa-angle-down"></i>
+                        <ul class="subnav__list--mobile">
+                            <li class="subnav__item--mobile">
+                                <a href="/Timetable/Grade6" class="subnav__link">Lớp 6</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Timetable/Grade7" class="subnav__link">Lớp 7</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Timetable/Grade8" class="subnav__link">Lớp 8</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Timetable/Grade9" class="subnav__link">Lớp 9</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Timetable/Grade10" class="subnav__link">Lớp 10</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Timetable/Grade11" class="subnav__link">Lớp 11</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Timetable/Grade12" class="subnav__link">Lớp 12</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav__item--mobile">
+                        <a href="/Activities">Hoạt động</a>
+                    </li>
+                    <li class="nav__item--mobile">
+                        <a href="/Contact">Liên hệ</a>
+                    </li>
+                    <li class="nav__item--mobile">
+                        <a href="https://ielts-vuive.com/">Ietls</a>
+                    </li>
+                    <li class="nav__item--mobile">
+                        <a href="https://dgnlkhaitam.edubit.vn/">Đánh giá năng lực</a>
+                    </li>
+                </ul>
+
             </div>
 
         </div>
@@ -179,56 +289,17 @@
                 </ul>
             </div>
             <div class="content__inner">
-                <ul class="news__list">
-                    <li class="new__item">
-                        <img src="../assets/images/placeHolderImg.png" alt="news__img" class="new__img">
-                        <div class="new__content">
-                            <h2 class="new__title">Chủ Đề</h2>
-                            <span class="new__subtitle">
-                                Đồng ý có cơ chế, chính sách đặc thù phát triển tỉnh Khánh Hòa, tuy nhiên, theo đại biểu
-                                Phạm Văn Hòa, không nên...
-                            </span>
-                        </div>
-                    </li>
-                    <li class="new__item">
-                        <img src="../assets/images/placeHolderImg.png" alt="news__img" class="new__img">
-                        <div class="new__content">
-                            <h2 class="new__title">Chủ Đề</h2>
-                            <span class="new__subtitle">
-                                Đồng ý có cơ chế, chính sách đặc thù phát triển tỉnh Khánh Hòa, tuy nhiên, theo đại biểu
-                                Phạm Văn Hòa, không nên...
-                            </span>
-                        </div>
-                    </li>
-                    <li class="new__item">
-                        <img src="../assets/images/placeHolderImg.png" alt="news__img" class="new__img">
-                        <div class="new__content">
-                            <h2 class="new__title">Chủ Đề</h2>
-                            <span class="new__subtitle">
-                                Đồng ý có cơ chế, chính sách đặc thù phát triển tỉnh Khánh Hòa, tuy nhiên, theo đại biểu
-                                Phạm Văn Hòa, không nên...
-                            </span>
-                        </div>
-                    </li>
-                    <li class="new__item">
-                        <img src="../assets/images/placeHolderImg.png" alt="news__img" class="new__img">
-                        <div class="new__content">
-                            <h2 class="new__title">Chủ Đề</h2>
-                            <span class="new__subtitle">
-                                Đồng ý có cơ chế, chính sách đặc thù phát triển tỉnh Khánh Hòa, tuy nhiên, theo đại biểu
-                                Phạm Văn Hòa, không nên...
-                            </span>
-                        </div>
-                    </li>
-                </ul>
+                <div class="news__wrapper">
+                </div>
 
                 <div class="achievement__wrapper">
                     <h2 class="achieve__title">Thành tích ở Khai Tâm</h2>
                     <ul class="achievement__list">
                         <li class="achieve__item">
                             <div class="achieve__item__inner">
-                                <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-9/106237740_3048623288584852_3352561516649042535_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_ohc=kkmkTFub3R4AX_M5YRi&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT-KhY096CnkkznS10JC-mswbH5q_q9_P7w-H_4vmZPCDA&oe=62B33C67"
-                                    alt="" class="achieve__img">
+                                <!-- <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-9/106237740_3048623288584852_3352561516649042535_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_ohc=kkmkTFub3R4AX_M5YRi&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT-KhY096CnkkznS10JC-mswbH5q_q9_P7w-H_4vmZPCDA&oe=62B33C67"
+                                    alt="" class="achieve__img"> -->
+                                <img src="https://scontent.fsgn5-13.fna.fbcdn.net/v/t1.15752-9/286440147_4723757311061586_2146820025044279153_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_ohc=Q0h_Km-FafkAX8FC3mk&_nc_ht=scontent.fsgn5-13.fna&oh=03_AVJR47RT8q-LgE8H9ZgTFitNctbl_IW6aEsGy0iM7ySJlw&oe=62CBBD85" alt="" class="achieve__img">
                                 <div class="achieve__content">
                                     <div class="name-and-score">
                                         <span class="achieve__name">Trần Lê Uyển Nhi</span>
@@ -241,8 +312,7 @@
                         </li>
                         <li class="achieve__item">
                             <div class="achieve__item__inner">
-                                <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-9/106237740_3048623288584852_3352561516649042535_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_ohc=kkmkTFub3R4AX_M5YRi&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT-KhY096CnkkznS10JC-mswbH5q_q9_P7w-H_4vmZPCDA&oe=62B33C67"
-                                    alt="" class="achieve__img">
+                                <img src="https://scontent.fsgn5-2.fna.fbcdn.net/v/t1.15752-9/287036994_404575141595474_9166932154104743167_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_ohc=3xDws3XgwpoAX_BRlGT&_nc_ht=scontent.fsgn5-2.fna&oh=03_AVJF_wyhv2hsgYnS_PiMJRDSPstLGPzJLxZZ2ySCARfWFA&oe=62CDEEEE" alt="" class="achieve__img">
                                 <div class="achieve__content">
                                     <div class="name-and-score">
                                         <span class="achieve__name">Trần Lê Uyển Nhi</span>
@@ -255,8 +325,7 @@
                         </li>
                         <li class="achieve__item">
                             <div class="achieve__item__inner">
-                                <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-9/106237740_3048623288584852_3352561516649042535_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_ohc=kkmkTFub3R4AX_M5YRi&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT-KhY096CnkkznS10JC-mswbH5q_q9_P7w-H_4vmZPCDA&oe=62B33C67"
-                                    alt="" class="achieve__img">
+                                <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-9/106237740_3048623288584852_3352561516649042535_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_ohc=kkmkTFub3R4AX_M5YRi&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT-KhY096CnkkznS10JC-mswbH5q_q9_P7w-H_4vmZPCDA&oe=62B33C67" alt="" class="achieve__img">
                                 <div class="achieve__content">
                                     <div class="name-and-score">
                                         <span class="achieve__name">Trần Lê Uyển Nhi</span>
@@ -292,8 +361,7 @@
                                         <span class="exper__school">Quoc Hoc high school</span>
                                         <span class="exper__year">2019-2020</span>
                                     </div>
-                                    <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-9/106237740_3048623288584852_3352561516649042535_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_ohc=kkmkTFub3R4AX_M5YRi&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT-KhY096CnkkznS10JC-mswbH5q_q9_P7w-H_4vmZPCDA&oe=62B33C67"
-                                        alt="" class="exper__img">
+                                    <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-9/106237740_3048623288584852_3352561516649042535_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_ohc=kkmkTFub3R4AX_M5YRi&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT-KhY096CnkkznS10JC-mswbH5q_q9_P7w-H_4vmZPCDA&oe=62B33C67" alt="" class="exper__img">
                                 </div>
                             </div>
                         </li>
@@ -316,8 +384,7 @@
                                         <span class="exper__school">Quoc Hoc high school</span>
                                         <span class="exper__year">2019-2020</span>
                                     </div>
-                                    <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-9/106237740_3048623288584852_3352561516649042535_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_ohc=kkmkTFub3R4AX_M5YRi&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT-KhY096CnkkznS10JC-mswbH5q_q9_P7w-H_4vmZPCDA&oe=62B33C67"
-                                        alt="" class="exper__img">
+                                    <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-9/106237740_3048623288584852_3352561516649042535_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_ohc=kkmkTFub3R4AX_M5YRi&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT-KhY096CnkkznS10JC-mswbH5q_q9_P7w-H_4vmZPCDA&oe=62B33C67" alt="" class="exper__img">
                                 </div>
                             </div>
                         </li>
@@ -340,8 +407,7 @@
                                         <span class="exper__school">Quoc Hoc high school</span>
                                         <span class="exper__year">2019-2020</span>
                                     </div>
-                                    <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-9/106237740_3048623288584852_3352561516649042535_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_ohc=kkmkTFub3R4AX_M5YRi&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT-KhY096CnkkznS10JC-mswbH5q_q9_P7w-H_4vmZPCDA&oe=62B33C67"
-                                        alt="" class="exper__img">
+                                    <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-9/106237740_3048623288584852_3352561516649042535_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_ohc=kkmkTFub3R4AX_M5YRi&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT-KhY096CnkkznS10JC-mswbH5q_q9_P7w-H_4vmZPCDA&oe=62B33C67" alt="" class="exper__img">
                                 </div>
                             </div>
                         </li>
@@ -355,52 +421,40 @@
                 <h2 class="desti__title">Điểm đến của học sinh</h2>
                 <ul class="desti_logo__list">
                     <li class="desti_logo__item">
-                        <img src="https://geology.hcmus.edu.vn/images/Logo/Logo_HCMUS.png" alt="logoImg"
-                            class="desti_logo__img">
+                        <img src="https://geology.hcmus.edu.vn/images/Logo/Logo_HCMUS.png" alt="logoImg" class="desti_logo__img">
                     </li>
                     <li class="desti_logo__item">
-                        <img src="../assets/images/Destilogo/School Logo/CongNghiepUni.png" alt="logoImg"
-                            class="desti_logo__img">
+                        <img src="../assets/images/Destilogo/School Logo/CongNghiepUni.png" alt="logoImg" class="desti_logo__img">
                     </li>
                     <li class="desti_logo__item">
-                        <img src="../assets/images/Destilogo/School Logo/Dai-hoc-hoa-sen.png" alt="logoImg"
-                            class="desti_logo__img">
+                        <img src="../assets/images/Destilogo/School Logo/Dai-hoc-hoa-sen.png" alt="logoImg" class="desti_logo__img">
                     </li>
                     <li class="desti_logo__item">
-                        <img src="../assets/images/Destilogo/School Logo/Dai-hoc-Luat-HCM.png" alt="logoImg"
-                            class="desti_logo__img">
+                        <img src="../assets/images/Destilogo/School Logo/Dai-hoc-Luat-HCM.png" alt="logoImg" class="desti_logo__img">
                     </li>
                     <li class="desti_logo__item">
-                        <img src="../assets/images/Destilogo/School Logo/Dai-hoc-quoc-gia.png" alt="logoImg"
-                            class="desti_logo__img">
+                        <img src="../assets/images/Destilogo/School Logo/Dai-hoc-quoc-gia.png" alt="logoImg" class="desti_logo__img">
                     </li>
                     <li class="desti_logo__item">
-                        <img src="../assets/images/Destilogo/School Logo/DH-Cong nghe sai gon.png" alt="logoImg"
-                            class="desti_logo__img">
+                        <img src="../assets/images/Destilogo/School Logo/DH-Cong nghe sai gon.png" alt="logoImg" class="desti_logo__img">
                     </li>
                     <li class="desti_logo__item">
-                        <img src="../assets/images/Destilogo/School Logo/DH-Cong-nghe-thong-tin.png" alt="logoImg"
-                            class="desti_logo__img">
+                        <img src="../assets/images/Destilogo/School Logo/DH-Cong-nghe-thong-tin.png" alt="logoImg" class="desti_logo__img">
                     </li>
                     <li class="desti_logo__item">
-                        <img src="../assets/images/Destilogo/School Logo/DH-Huflit.png" alt="logoImg"
-                            class="desti_logo__img">
+                        <img src="../assets/images/Destilogo/School Logo/DH-Huflit.png" alt="logoImg" class="desti_logo__img">
                     </li>
                     <li class="desti_logo__item">
-                        <img src="../assets/images/Destilogo/School Logo/DH-Sai gon.png" alt="logoImg"
-                            class="desti_logo__img">
+                        <img src="../assets/images/Destilogo/School Logo/DH-Sai gon.png" alt="logoImg" class="desti_logo__img">
                     </li>
                     <li class="desti_logo__item">
-                        <img src="../assets/images/Destilogo/School Logo/DH-Su-Pham.png" alt="logoImg"
-                            class="desti_logo__img">
+                        <img src="../assets/images/Destilogo/School Logo/DH-Su-Pham.png" alt="logoImg" class="desti_logo__img">
                     </li>
                     <li class="desti_logo__item">
-                        <img src="../assets/images/Destilogo/School Logo/RMIT_University_Logo.png" alt="logoImg"
-                            class="desti_logo__img">
+                        <img src="../assets/images/Destilogo/School Logo/RMIT_University_Logo.png" alt="logoImg" class="desti_logo__img">
                     </li>
                     <li class="desti_logo__item">
-                        <img src="../assets/images/Destilogo/School Logo/DH-Ton-Duc-Thang.png" alt="logoImg"
-                            class="desti_logo__img">
+                        <img src="../assets/images/Destilogo/School Logo/DH-Ton-Duc-Thang.png" alt="logoImg" class="desti_logo__img">
                     </li>
                 </ul>
 
@@ -415,8 +469,7 @@
                     <!-- đợi hai chị gửi thêm -->
                 </div>
 
-                <img src="https://www.komar.de/en/media/catalog/product/cache/5/image/9df78eab33525d08d6e5fb8d27136e95/4/-/4-050_worldmap_neu_ma_1.jpg"
-                    alt="" class="contact__img">
+                <img src="/assets/images/KhaiTamMap.png" alt="" class="contact__img">
             </div>
         </div>
 
@@ -427,19 +480,25 @@
                     <li class="social__item">
                         <a class="social__link" href="https://www.facebook.com/luyenthikhaitam">
                             <i class="social__icon fab fa-facebook"></i>
-                            Facebook
+                            <span class="social__text">
+                                Facebook
+                            </span>
                         </a>
                     </li>
                     <li class="social__item">
                         <a class="social__link" href="tel: +0909611861">
                             <i class="social__icon fas fa-phone-alt"></i>
-                            Điện thoại
+                            <span class="social__text">
+                                Điện thoại
+                            </span>
                         </a>
                     </li>
                     <li class="social__item">
                         <a class="social__link" href="mailto:luyenthikhaitam@gmail.com">
                             <i class="social__icon fas fa-envelope"></i>
-                            Gmail
+                            <span class="social__text">
+                                Gmail
+                            </span>
                         </a>
                     </li>
                 </ul>
@@ -447,9 +506,8 @@
         </div>
     </div>
 </body>
-<script src="./index.js" type="module">
-</script>
-
-
+<script src='/Header_And_Footer/index.js'></script>
+<script src='./index.js'></script>
+<script type="module" src='./content.js'></script>
 
 </html>

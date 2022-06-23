@@ -1,0 +1,73 @@
+                <label for="nav__input" class="menuBtn--mobile">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <input id="nav__input" type="checkbox">
+                <div class="navbar__modal"></div>
+                <ul class="navbar__list--mobile">
+                    <h2 class="nav___header--mobile">
+                        Menu
+                        <i class="navClose--mobile fas fa-times"></i>
+                    </h2>
+                    <li class="nav__item--mobile">
+                        Giới thiệu
+                        <i class="down-icon fas fa-angle-down"></i>
+                        <ul class="subnav__list--mobile">
+                            <li class="subnav__item--mobile">
+                                <a href="/Introduce/VisionAndMission" class="subnav__link">Tầm nhìn và sứ
+                                    mệnh</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Introduce/Teachers" class="subnav__link">Đội ngũ giáo viên</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Introduce/License" class="subnav__link">Trải nghiệm của học sinh</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Introduce/Infrastructure" class="subnav__link">Cơ sở vật chất</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Introduce/Achievement" class="subnav__link">Thành tích</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Introduce/Experience" class="subnav__link">Trải nghiệm ở Khai Tâm</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav__item--mobile">
+                        Tuyển sinh
+                        <i class="down-icon fas fa-angle-down"></i>
+                        <ul class="subnav__list--mobile">
+                            <li class="subnav__item--mobile">
+                                <a href="/Enrollment/CurrentYear" class="subnav__link">Năm học 2022-2023</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Enrollment/Offer" class="subnav__link">Ưu đãi</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Enrollment/Ielts" class="subnav__link">Ielts</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/Enrollment/ProficiencyAssessment" class="subnav__link">Đánh giá năng
+                                    lực</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav__item--mobile">
+                        Tin tức
+                        <i class="down-icon fas fa-angle-down"></i>
+                        <ul class="subnav__list--mobile">
+                            <li class="subnav__item--mobile">
+                                <a href="/News/Education" class="subnav__link">Giáo dục chính thống</a>
+                            </li>
+                            <li class="subnav__item--mobile">
+                                <a href="/News/KhaiTamAcademy" class="subnav__link">Trung tâm Khai Tâm</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav__item--mobile">
+                        <a href="/Activities">Hoạt động</a>
+                    </li>
+                    <li class="nav__item--mobile">
+                        <a href="/Contact">Liên hệ</a>
+                    </li>
+                </ul>

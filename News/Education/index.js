@@ -1,8 +1,16 @@
-import {postTitle as postTile1,postImg as postImg1,postText} from './Post1/index.js'
-import {postTitle as postTile2,postBeforeText,postImg as postImg2} from './Post2/index.js'
+import {
+  postTitle as postTile1,
+  postImg as postImg1,
+  postText,
+} from "./Post1/content.js";
 
-const contentInner = document.querySelector('.content__inner')
+import {
+  postTitle as postTile2,
+  postBeforeText,
+  postImg as postImg2,
+} from "./Post2/content.js";
 
+const contentInner = document.querySelector(".content__inner");
 
 contentInner.innerHTML = `
     <ul class="news__list">
@@ -35,4 +43,4 @@ contentInner.innerHTML = `
         </a>
     </li>
 </ul>
-`
+`;

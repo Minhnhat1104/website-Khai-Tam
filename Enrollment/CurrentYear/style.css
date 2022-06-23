@@ -1,0 +1,15 @@
+.para__content {
+    width: 80%;
+    margin: auto;
+    font-size: 1.6rem;
+    text-align: justify;
+    padding: 20px 0;
+}
+
+.para__title {
+    text-align: center;
+    color: var(--primary-color);
+    width: 60%;
+    margin: auto;
+    padding-bottom: 20px;
+}
