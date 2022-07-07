@@ -13,3 +13,10 @@
     margin: auto;
     padding-bottom: 20px;
 }
+
+@media screen and (max-width: 739px) {
+    .para__title {
+        text-align: justify;
+        width: 100%;
+    }
+}

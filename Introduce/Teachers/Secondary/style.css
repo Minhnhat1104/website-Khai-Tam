@@ -1,0 +1,129 @@
+.mt-4 {
+    margin-top: 4px;
+}
+
+.content__inner {
+    padding-bottom: 44px;
+}
+
+.subject-title {
+    text-align: center;
+    font-size: 3.6rem;
+    /* line-height: 3.0rem; */
+    padding-top: 16px;
+    color: var(--primary-color);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.col {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card {
+    width: 100%;
+    padding: 12px;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    transition: transform cubic-bezier(0.4, 0.0, 0.2, 1) 0.3s, background-color cubic-bezier(0.4, 0.0, 0.2, 1) 0.3s, box-shadow cubic-bezier(0.4, 0.0, 0.2, 1) 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    background-color: var(--light-primary-color);
+    box-shadow:  0 32px 80px 14px rgba(0,0,0,0.26), 0 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover .card-item::before {
+    background-color: var(--white-color);
+}
+
+.card-img-top {
+    display: block;
+    width: 20%;
+    float: left;
+    border-radius: 50%;
+}
+.card-body {
+    width: 80%;
+    padding: 0 8px;
+    float: left;
+    pointer-events: none;
+}
+
+.card-title {
+    color: var(--white-color);
+    font-size: 2.2rem;
+    line-height: 3.2rem;    
+}
+
+.card-text {
+    color: var(--white-color);
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.card-item {
+    color: var(--white-color);
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-align: justify;
+}
+
+.card-item::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #f27900;
+    margin: 0 6px;
+    border-radius: 999px;
+}
+
+
+@media screen and (max-width: 739px) {
+    .col-s-12 {
+        width: 100%;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+    .col-m-4 {
+        width: 33.3333%;
+    }
+
+    .col-m-6 {
+        width: calc(50% - 16px);
+        width: 50%;
+        padding: 0 8px;
+    }
+
+    .col-m-12 {
+        width: 100%;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .col-l-3 {
+        width: 25%;
+    }
+
+    .col-l-6 {
+        width: calc(50% - 16px);
+        margin: 0 8px;
+    }
+}

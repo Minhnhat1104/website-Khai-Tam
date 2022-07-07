@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="/assets/icons/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.min.css">
     <link rel="stylesheet" href="/assets/css/base.css">
     <link rel="stylesheet" href="/Header_And_Footer/style.css">
-    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="/Header_And_Footer/responsive.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -50,7 +50,8 @@
                                         <a href="/Introduce/Teachers" class="subnav__link">Đội ngũ giáo viên</a>
                                     </li>
                                     <li class="subnav__item">
-                                        <a href="/Introduce/StudentExperience" class="subnav__link">Trải nghiệm của học sinh</a>
+                                        <a href="/Introduce/StudentExperience" class="subnav__link">Trải nghiệm của học
+                                            sinh</a>
                                     </li>
                                     <li class="subnav__item">
                                         <a href="/Introduce/Infrastructure" class="subnav__link">Cơ sở vật chất</a>
@@ -249,13 +250,191 @@
                         <a href="https://dgnlkhaitam.edubit.vn/">Đánh giá năng lực</a>
                     </li>
                 </ul>
-
             </div>
         </div>
 
         <div class="content__wrapper">
             <div class="content__inner">
+                <h2 class="subject-title">TOÁN</h2>
+                <div class="mt-4">
+                    <div class="row justify-content-center">
+                        <div class="col col-s-12 col-m-6 col-l-6">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/400" class="card-img-top" alt="teacher-img">
+                                <div class="card-body">
+                                    <h5 class="card-title">Thầy Tiêu Khánh Văn</h5>
+                                    <ul class="card-list">
+                                        <li class="card-item">Giáo viên cơ hữu Trung tâm Luyện thi Khai Tâm. </li>
+                                        <li class="card-item">Cử nhân Toán – ĐH Sư Phạm TPHCM. </li>
+                                        <li class="card-item">7 năm kinh nghiệm luyện thi TS 10, luyện thi THPTQG. </li>
+                                        <li class="card-item">Chuyên bồi dưỡng học sinh giỏi trường Chuyên Trần Đại
+                                            Nghĩa, Chuyên Lê Hồng Phong.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-s-12 col-m-6 col-l-6">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/400" class="card-img-top" alt="teacher-img">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cô Trương Trần Thu Thủy </h5>
+                                    <ul class="card-list">
+                                        <li class="card-item">Giáo viên cơ hữu Trung tâm Luyện thi Khai Tâm. </li>
+                                        <li class="card-item">Cử nhân Toán – ĐH Sư Phạm TPHCM. </li>
+                                        <li class="card-item">7 năm kinh nghiệm luyện thi TS 10, luyện thi THPTQG. </li>
+                                        <li class="card-item">Kinh nghiệm giảng dạy học sinh mất gốc chinh phục môn Toán
+                                            thành công. </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-s-12 col-m-6 col-l-6">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/400" class="card-img-top" alt="teacher-img">
+                                <div class="card-body">
+                                    <h5 class="card-title">Thầy Nguyễn Ngọc Long</h5>
+                                    <ul class="card-list">
+                                        <li class="card-item">Giáo viên cơ hữu Trung tâm Luyện thi Khai Tâm. </li>
+                                        <li class="card-item">Cử nhân Toán – ĐH Sư Phạm TPHCM. </li>
+                                        <li class="card-item">Học viên cao học khoa Toán Tin-ứng dụng – ĐH Khoa học tự
+                                            nhiên TPHCM. </li>
+                                        <li class="card-item">7 năm kinh nghiệm dạy Toán 6, 7, 8, 9, luyện thi TS 10.
+                                        </li>
+                                        <li class="card-item">Kinh nghiệm giảng dạy học sinh mất gốc chinh phục môn Toán
+                                            thành công. </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="subject-title">VĂN</h2>
+                    <div class="row justify-content-center">
+                        <div class="col col-s-12 col-m-12 col-l-12">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/400" class="card-img-top" alt="teacher-img">
+                                <div class="card-body">
+                                    <h5 class="card-title">Thầy Nguyễn Phước Bảo Khôi</h5>
+                                    <ul class="card-list">
+                                        <li class="card-item">Giảng viên khoa Ngữ văn, Đại học Sư phạm TpHCM </li>
+                                        <li class="card-item">Thạc sĩ Văn học Việt Nam, nghiên cứu sinh ngành Phương
+                                            pháp dạy học Văn – Tiếng Việt - Giảng viên cốt cán bồi dưỡng giáo viên THCS/
+                                            THPT theo chương trình ETEP, Bộ Giáo dục và Đào tạo </li>
+                                        <li class="card-item">Cựu giáo viên THPT chuyên Lê Hồng Phong, TpHCM (2004 –
+                                            2009) </li>
+                                        <li class="card-item">Giáo viên thỉnh giảng, bồi dưỡng học sinh giỏi cho các
+                                            trường: </li>
+                                        <li class="card-item"> THCS – THPT Lương Thế Vinh, Q.1 (2005 – nay). </li>
+                                        <li class="card-item"> THCS – THPT Đinh Thiện Lý (Lawrence S.Ting) (2009 –
+                                            2013). </li>
+                                        <li class="card-item"> Trung học thực hành Đại học Sư phạm TpHCM (2013 – 2014).
+                                        </li>
+                                        <li class="card-item">Dạy ôn thi trên kênh truyền hình HTV4 và các ứng dụng dạy
+                                            học trực tuyến như Hocmai, Kiến Guru… - Cố vấn chuyên môn cho công ti dạy
+                                            học trực tuyến Hocmai </li>
+                                        <li class="card-item">Có kinh nghiệm hơn 10 năm dạy luyện thi tuyển sinh lớp 10
+                                            môn Ngữ Văn 10, Ngữ Văn 12.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="subject-title">TIẾNG ANH (LUYỆN THI IELTS)</h2>
+                    <div class="row justify-content-center">
+                        <div class="col col-s-12 col-m-6 col-l-6">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/400" class="card-img-top" alt="teacher-img">
+                                <div class="card-body">
+                                    <h5 class="card-title">Thầy Đoàn Lê Thanh Phong</h5>
+                                    <ul class="card-list">
+                                        <li class="card-item">Cử nhân Sư phạm Tiếng Anh – Trường Đại học Sài Gòn. </li>
+                                        <li class="card-item">Đạt chứng chỉ FCE – Cambridge B2. </li>
+                                        <li class="card-item">Giáo viên trường THPT Đào Sơn Tây, TP Thủ Đức. </li>
+                                        <li class="card-item">6 năm kinh nghiệm luyện thi TS 10 với nhiều HS đậu vào
+                                            trường Nguyễn Thị Minh Khai, Gia Định, Phú Nhuận, Võ Thị Sáu, Hoàng Hoa
+                                            Thám, … </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-s-12 col-m-6 col-l-6">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/400" class="card-img-top" alt="teacher-img">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cô Nguyễn Ngọc Tiên.</h5>
+                                    <ul class="card-list">
+                                        <li class="card-item">Cử nhân Sư phạm Tiếng Anh - trường ĐH Sài Gòn Bằng. </li>
+                                        <li class="card-item">Học viên cao học ngành Lý luận và phương pháp dạy hoc bộ
+                                            môn tiếng Anh - ĐH Mở TPHCM. - Đạt chứng chỉ FCE – Cambridge B2. </li>
+                                        <li class="card-item">Đạt chứng chỉ IELTS 6.5. </li>
+                                        <li class="card-item">Giáo viên tại Kynaforkids. </li>
+                                        <li class="card-item">Hoà đồng, vui vẻ, nhiệt tình, kiên nhẫn với học sinh.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-s-12 col-m-6 col-l-6">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/400" class="card-img-top" alt="teacher-img">
+                                <div class="card-body">
+                                    <h5 class="card-title">Thầy Võ Anh Tú</h5>
+                                    <ul class="card-list">
+                                        <li class="card-item">Cử nhân Sư phạm Tiếng Anh – Đại học Văn Lang. </li>
+                                        <li class="card-item">Đạt chứng chỉ FCE – Cambridge B2. </li>
+                                        <li class="card-item">Đạt chứng chỉ TOEIC 820. </li>
+                                        <li class="card-item">Giáo viên trường THCS – THPT Đào Duy Anh) (2019 – nay).
+                                        </li>
+                                        <li class="card-item">Giáo viên THCS – THPT Nhân Văn (quận Tân Phú) (2/2022 –
+                                            nay). </li>
+                                        <li class="card-item">6 năm kinh nghiệm giảng dạy Tiếng Anh 6, 7, 8, 9. </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
 
+                    </div>
+                    <h2 class="subject-title">VẬT LÝ</h2>
+                    <div class="row justify-content-center">
+                        <div class="col col-s-12 col-m-6 col-l-6">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/400" class="card-img-top" alt="teacher-img">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cô Trần Phương Nga</h5>
+                                    <ul class="card-list">
+                                        <li class="card-item">Cử nhân Sư phạm Vật Lý – ĐHSP. </li>
+                                        <li class="card-item">Học viên cao học ngành Phương pháp dạy học vật lý – ĐH Sư
+                                            Phạm TPHCM. </li>
+                                        <li class="card-item">GV trường THCS Châu Văn Liêm. </li>
+                                        <li class="card-item">GV giỏi cấp Quận Phú Nhuận năm 2022. </li>
+                                        <li class="card-item">Giáo viên bồi dưỡng đội tuyển Olympic 30/4 </li>
+                                        <li class="card-item">8 năm kinh nghiệm giảng dạy vật lý khối 6, 7, 8, 9. </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="subject-title">HÓA</h2>
+                    <div class="row justify-content-center">
+                        <div class="col col-s-12 col-m-6 col-l-6">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/400" class="card-img-top" alt="teacher-img">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cô Kiều Thị Minh Châu</h5>
+                                    <ul class="card-list">
+                                        <li class="card-item">
+                                            Sáng lập - Giám đốc Trung tâm Luyện thi Khai Tâm.
+                                        </li>
+                                        <li class="card-item">
+                                            12 năm kinh nghiệm luyện thi THPTQG với nhiều HS đậu vào Y Dược TPHCM, Y
+                                            Phạm Ngọc Thạch, Khoa Y Đại học QG, Bách Khoa, Kinh Tế, Ngoại Thương, Khoa
+                                            học tự nhiên, …. - 14 năm kinh nghiệm giảng dạy cho cho HS mất gốc Hóa.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -287,6 +466,6 @@
     </div>
 </body>
 <script src='/Header_And_Footer/index.js'></script>
-<script src='./index.js' type="module"></script>
+<script src='./index.js'></script>
 
 </html>

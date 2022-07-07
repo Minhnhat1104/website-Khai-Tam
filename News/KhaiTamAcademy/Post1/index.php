@@ -50,7 +50,7 @@
                                         <a href="/Introduce/Teachers" class="subnav__link">Đội ngũ giáo viên</a>
                                     </li>
                                     <li class="subnav__item">
-                                        <a href="/Introduce/License" class="subnav__link">Trải nghiệm của học sinh</a>
+                                        <a href="/Introduce/StudentExperience" class="subnav__link">Trải nghiệm của học sinh</a>
                                     </li>
                                     <li class="subnav__item">
                                         <a href="/Introduce/Infrastructure" class="subnav__link">Cơ sở vật chất</a>
@@ -165,7 +165,7 @@
                                 <a href="/Introduce/Teachers" class="subnav__link">Đội ngũ giáo viên</a>
                             </li>
                             <li class="subnav__item--mobile">
-                                <a href="/Introduce/License" class="subnav__link">Trải nghiệm của học sinh</a>
+                                <a href="/Introduce/StudentExperience" class="subnav__link">Trải nghiệm của học sinh</a>
                             </li>
                             <li class="subnav__item--mobile">
                                 <a href="/Introduce/Infrastructure" class="subnav__link">Cơ sở vật chất</a>

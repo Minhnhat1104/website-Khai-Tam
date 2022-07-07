@@ -50,7 +50,8 @@
                                         <a href="/Introduce/Teachers" class="subnav__link">Đội ngũ giáo viên</a>
                                     </li>
                                     <li class="subnav__item">
-                                        <a href="/Introduce/License" class="subnav__link">Trải nghiệm của học sinh</a>
+                                        <a href="/Introduce/StudentExperience" class="subnav__link">Trải nghiệm của học
+                                            sinh</a>
                                     </li>
                                     <li class="subnav__item">
                                         <a href="/Introduce/Infrastructure" class="subnav__link">Cơ sở vật chất</a>
@@ -165,7 +166,7 @@
                                 <a href="/Introduce/Teachers" class="subnav__link">Đội ngũ giáo viên</a>
                             </li>
                             <li class="subnav__item--mobile">
-                                <a href="/Introduce/License" class="subnav__link">Trải nghiệm của học sinh</a>
+                                <a href="/Introduce/StudentExperience" class="subnav__link">Trải nghiệm của học sinh</a>
                             </li>
                             <li class="subnav__item--mobile">
                                 <a href="/Introduce/Infrastructure" class="subnav__link">Cơ sở vật chất</a>
@@ -299,7 +300,8 @@
                             <div class="achieve__item__inner">
                                 <!-- <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-9/106237740_3048623288584852_3352561516649042535_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_ohc=kkmkTFub3R4AX_M5YRi&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT-KhY096CnkkznS10JC-mswbH5q_q9_P7w-H_4vmZPCDA&oe=62B33C67"
                                     alt="" class="achieve__img"> -->
-                                <img src="https://scontent.fsgn5-13.fna.fbcdn.net/v/t1.15752-9/286440147_4723757311061586_2146820025044279153_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_ohc=Q0h_Km-FafkAX8FC3mk&_nc_ht=scontent.fsgn5-13.fna&oh=03_AVJR47RT8q-LgE8H9ZgTFitNctbl_IW6aEsGy0iM7ySJlw&oe=62CBBD85" alt="" class="achieve__img">
+                                <img src="https://scontent.fsgn5-13.fna.fbcdn.net/v/t1.15752-9/286440147_4723757311061586_2146820025044279153_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_ohc=Q0h_Km-FafkAX8FC3mk&_nc_ht=scontent.fsgn5-13.fna&oh=03_AVJR47RT8q-LgE8H9ZgTFitNctbl_IW6aEsGy0iM7ySJlw&oe=62CBBD85"
+                                    alt="" class="achieve__img">
                                 <div class="achieve__content">
                                     <div class="name-and-score">
                                         <span class="achieve__name">Trần Lê Uyển Nhi</span>
@@ -312,7 +314,8 @@
                         </li>
                         <li class="achieve__item">
                             <div class="achieve__item__inner">
-                                <img src="https://scontent.fsgn5-2.fna.fbcdn.net/v/t1.15752-9/287036994_404575141595474_9166932154104743167_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_ohc=3xDws3XgwpoAX_BRlGT&_nc_ht=scontent.fsgn5-2.fna&oh=03_AVJF_wyhv2hsgYnS_PiMJRDSPstLGPzJLxZZ2ySCARfWFA&oe=62CDEEEE" alt="" class="achieve__img">
+                                <img src="https://scontent.fsgn5-2.fna.fbcdn.net/v/t1.15752-9/287036994_404575141595474_9166932154104743167_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_ohc=3xDws3XgwpoAX_BRlGT&_nc_ht=scontent.fsgn5-2.fna&oh=03_AVJF_wyhv2hsgYnS_PiMJRDSPstLGPzJLxZZ2ySCARfWFA&oe=62CDEEEE"
+                                    alt="" class="achieve__img">
                                 <div class="achieve__content">
                                     <div class="name-and-score">
                                         <span class="achieve__name">Trần Lê Uyển Nhi</span>
@@ -325,7 +328,8 @@
                         </li>
                         <li class="achieve__item">
                             <div class="achieve__item__inner">
-                                <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-9/106237740_3048623288584852_3352561516649042535_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_ohc=kkmkTFub3R4AX_M5YRi&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT-KhY096CnkkznS10JC-mswbH5q_q9_P7w-H_4vmZPCDA&oe=62B33C67" alt="" class="achieve__img">
+                                <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-9/106237740_3048623288584852_3352561516649042535_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_ohc=kkmkTFub3R4AX_M5YRi&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT-KhY096CnkkznS10JC-mswbH5q_q9_P7w-H_4vmZPCDA&oe=62B33C67"
+                                    alt="" class="achieve__img">
                                 <div class="achieve__content">
                                     <div class="name-and-score">
                                         <span class="achieve__name">Trần Lê Uyển Nhi</span>
@@ -361,7 +365,8 @@
                                         <span class="exper__school">Quoc Hoc high school</span>
                                         <span class="exper__year">2019-2020</span>
                                     </div>
-                                    <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-9/106237740_3048623288584852_3352561516649042535_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_ohc=kkmkTFub3R4AX_M5YRi&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT-KhY096CnkkznS10JC-mswbH5q_q9_P7w-H_4vmZPCDA&oe=62B33C67" alt="" class="exper__img">
+                                    <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-9/106237740_3048623288584852_3352561516649042535_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_ohc=kkmkTFub3R4AX_M5YRi&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT-KhY096CnkkznS10JC-mswbH5q_q9_P7w-H_4vmZPCDA&oe=62B33C67"
+                                        alt="" class="exper__img">
                                 </div>
                             </div>
                         </li>
@@ -384,7 +389,8 @@
                                         <span class="exper__school">Quoc Hoc high school</span>
                                         <span class="exper__year">2019-2020</span>
                                     </div>
-                                    <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-9/106237740_3048623288584852_3352561516649042535_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_ohc=kkmkTFub3R4AX_M5YRi&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT-KhY096CnkkznS10JC-mswbH5q_q9_P7w-H_4vmZPCDA&oe=62B33C67" alt="" class="exper__img">
+                                    <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-9/106237740_3048623288584852_3352561516649042535_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_ohc=kkmkTFub3R4AX_M5YRi&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT-KhY096CnkkznS10JC-mswbH5q_q9_P7w-H_4vmZPCDA&oe=62B33C67"
+                                        alt="" class="exper__img">
                                 </div>
                             </div>
                         </li>
@@ -407,7 +413,8 @@
                                         <span class="exper__school">Quoc Hoc high school</span>
                                         <span class="exper__year">2019-2020</span>
                                     </div>
-                                    <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-9/106237740_3048623288584852_3352561516649042535_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_ohc=kkmkTFub3R4AX_M5YRi&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT-KhY096CnkkznS10JC-mswbH5q_q9_P7w-H_4vmZPCDA&oe=62B33C67" alt="" class="exper__img">
+                                    <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-9/106237740_3048623288584852_3352561516649042535_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_ohc=kkmkTFub3R4AX_M5YRi&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT-KhY096CnkkznS10JC-mswbH5q_q9_P7w-H_4vmZPCDA&oe=62B33C67"
+                                        alt="" class="exper__img">
                                 </div>
                             </div>
                         </li>
@@ -421,40 +428,52 @@
                 <h2 class="desti__title">Điểm đến của học sinh</h2>
                 <ul class="desti_logo__list">
                     <li class="desti_logo__item">
-                        <img src="https://geology.hcmus.edu.vn/images/Logo/Logo_HCMUS.png" alt="logoImg" class="desti_logo__img">
+                        <img src="https://geology.hcmus.edu.vn/images/Logo/Logo_HCMUS.png" alt="logoImg"
+                            class="desti_logo__img">
                     </li>
                     <li class="desti_logo__item">
-                        <img src="../assets/images/Destilogo/School Logo/CongNghiepUni.png" alt="logoImg" class="desti_logo__img">
+                        <img src="../assets/images/Destilogo/School Logo/CongNghiepUni.png" alt="logoImg"
+                            class="desti_logo__img">
                     </li>
                     <li class="desti_logo__item">
-                        <img src="../assets/images/Destilogo/School Logo/Dai-hoc-hoa-sen.png" alt="logoImg" class="desti_logo__img">
+                        <img src="../assets/images/Destilogo/School Logo/Dai-hoc-hoa-sen.png" alt="logoImg"
+                            class="desti_logo__img">
                     </li>
                     <li class="desti_logo__item">
-                        <img src="../assets/images/Destilogo/School Logo/Dai-hoc-Luat-HCM.png" alt="logoImg" class="desti_logo__img">
+                        <img src="../assets/images/Destilogo/School Logo/Dai-hoc-Luat-HCM.png" alt="logoImg"
+                            class="desti_logo__img">
                     </li>
                     <li class="desti_logo__item">
-                        <img src="../assets/images/Destilogo/School Logo/Dai-hoc-quoc-gia.png" alt="logoImg" class="desti_logo__img">
+                        <img src="../assets/images/Destilogo/School Logo/Dai-hoc-quoc-gia.png" alt="logoImg"
+                            class="desti_logo__img">
                     </li>
                     <li class="desti_logo__item">
-                        <img src="../assets/images/Destilogo/School Logo/DH-Cong nghe sai gon.png" alt="logoImg" class="desti_logo__img">
+                        <img src="../assets/images/Destilogo/School Logo/DH-Cong nghe sai gon.png" alt="logoImg"
+                            class="desti_logo__img">
                     </li>
                     <li class="desti_logo__item">
-                        <img src="../assets/images/Destilogo/School Logo/DH-Cong-nghe-thong-tin.png" alt="logoImg" class="desti_logo__img">
+                        <img src="../assets/images/Destilogo/School Logo/DH-Cong-nghe-thong-tin.png" alt="logoImg"
+                            class="desti_logo__img">
                     </li>
                     <li class="desti_logo__item">
-                        <img src="../assets/images/Destilogo/School Logo/DH-Huflit.png" alt="logoImg" class="desti_logo__img">
+                        <img src="../assets/images/Destilogo/School Logo/DH-Huflit.png" alt="logoImg"
+                            class="desti_logo__img">
                     </li>
                     <li class="desti_logo__item">
-                        <img src="../assets/images/Destilogo/School Logo/DH-Sai gon.png" alt="logoImg" class="desti_logo__img">
+                        <img src="../assets/images/Destilogo/School Logo/DH-Sai gon.png" alt="logoImg"
+                            class="desti_logo__img">
                     </li>
                     <li class="desti_logo__item">
-                        <img src="../assets/images/Destilogo/School Logo/DH-Su-Pham.png" alt="logoImg" class="desti_logo__img">
+                        <img src="../assets/images/Destilogo/School Logo/DH-Su-Pham.png" alt="logoImg"
+                            class="desti_logo__img">
                     </li>
                     <li class="desti_logo__item">
-                        <img src="../assets/images/Destilogo/School Logo/RMIT_University_Logo.png" alt="logoImg" class="desti_logo__img">
+                        <img src="../assets/images/Destilogo/School Logo/RMIT_University_Logo.png" alt="logoImg"
+                            class="desti_logo__img">
                     </li>
                     <li class="desti_logo__item">
-                        <img src="../assets/images/Destilogo/School Logo/DH-Ton-Duc-Thang.png" alt="logoImg" class="desti_logo__img">
+                        <img src="../assets/images/Destilogo/School Logo/DH-Ton-Duc-Thang.png" alt="logoImg"
+                            class="desti_logo__img">
                     </li>
                 </ul>
 
