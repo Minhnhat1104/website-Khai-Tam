@@ -56,6 +56,10 @@
         width: 317px;
         max-width: 100%;
     }
+
+    .desti_logo__list {
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 1023px) {
