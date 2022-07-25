@@ -176,9 +176,11 @@
 
 .achievement__list, .exper__list {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .achieve__item, .exper__item {
+    margin-top: 16px;
     width: 33.3333%;
 }
 
@@ -236,7 +238,6 @@
 .exper__item__inner {
     position: relative;
     background-color: var(--primary-color);
-    height: 440px;
 }
 
 .icon-and-text {
@@ -291,8 +292,9 @@
 }
 
 .exper__img {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
     border-radius: 50%;
 }
 

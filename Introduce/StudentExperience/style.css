@@ -1,0 +1,98 @@
+.content__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.exper__title {
+    font-size: 3.2rem;
+    font-weight: 500;
+    padding: 32px 0;
+    color: var(--primary-color);
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.exper__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.exper__item {
+    padding: 8px;
+    width: 50%;
+}
+
+.exper__item__inner {
+    margin: auto;
+    padding: 16px;
+    background-color: var(--white-color);
+    overflow: hidden;
+    transition: height ease-in-out 0.3s;
+    position: relative;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.exper__item__inner:hover {
+    height: unset;
+    background-color: var(--light-primary-color);
+}
+
+.exper__item__inner:hover .exper__text {
+}
+
+.icon-and-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.exper__icon {
+    font-size: 2.4rem;
+    color: var(--white-color);
+    margin-right: 8px;
+}
+
+.exper__text {
+    font-size: 1.6rem;
+    color: var(--white-color);
+    overflow: hidden;
+    text-align: justify;
+    transition: height ease-in-out 0.3s;
+}
+
+.exper__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.exper__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.exper__name, .exper__school, .exper__year {
+    color: var(--white-color);
+    font-weight: 500;
+    width: fit-content;
+}
+
+.exper__name {
+
+}
+
+.exper__school {
+
+}
+
+.exper__year {
+
+}
+
+.exper__img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
