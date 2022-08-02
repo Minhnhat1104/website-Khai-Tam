@@ -289,65 +289,17 @@
                     </li>
                 </ul>
             </div>
+            
             <div class="content__inner">
                 <div class="news__wrapper">
                 </div>
 
                 <div class="achievement__wrapper">
-                    <h2 class="achieve__title">Thành tích ở Khai Tâm</h2>
-                    <ul class="achievement__list">
-                        <li class="achieve__item">
-                            <div class="achieve__item__inner">
-                                <!-- <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-9/106237740_3048623288584852_3352561516649042535_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_ohc=kkmkTFub3R4AX_M5YRi&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT-KhY096CnkkznS10JC-mswbH5q_q9_P7w-H_4vmZPCDA&oe=62B33C67"
-                                    alt="" class="achieve__img"> -->
-                                <img src=""
-                                    alt="" class="achieve__img">
-                                <div class="achieve__content">
-                                    <div class="name-and-score">
-                                        <span class="achieve__name">Trần Lê Uyển Nhi</span>
-                                        <span class="achieve__score">Điểm: 10</span>
-                                    </div>
-                                    <span class="achieve__school">Quoc Hoc high school</span>
-                                    <span class="achieve__year">2019-2020</span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="achieve__item">
-                            <div class="achieve__item__inner">
-                                <img src=""
-                                    alt="" class="achieve__img">
-                                <div class="achieve__content">
-                                    <div class="name-and-score">
-                                        <span class="achieve__name">Trần Lê Uyển Nhi</span>
-                                        <span class="achieve__score">Điểm: 10</span>
-                                    </div>
-                                    <span class="achieve__school">Quoc Hoc high school</span>
-                                    <span class="achieve__year">2019-2020</span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="achieve__item">
-                            <div class="achieve__item__inner">
-                                <img src=""
-                                    alt="" class="achieve__img">
-                                <div class="achieve__content">
-                                    <div class="name-and-score">
-                                        <span class="achieve__name">Trần Lê Uyển Nhi</span>
-                                        <span class="achieve__score">Điểm: 10</span>
-                                    </div>
-                                    <span class="achieve__school">Quoc Hoc high school</span>
-                                    <span class="achieve__year">2019-2020</span>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
                 </div>
 
                 <div class="exper__wrapper">
 
                 </div>
-
-
             </div>
 
             <div class="desti__wrapper">
@@ -406,8 +358,6 @@
 
 
             </div>
-
-
 
             <div class="contact">
                 <div class="contact__info">

@@ -1,23 +1,4 @@
 @media screen and (max-width: 739px) {
-    /* :root {
-        --header-height: 60px;
-    }
-
-    .logo__link {
-        min-width: unset;
-        display: flex;
-        align-items: center;
-    }
-    
-    .header__logo {
-        width: unset;
-        height: var(--header-height);
-        padding-right: 0;
-        display: block;
-        margin: auto;
-        margin: 0;
-    } */
-
     #header .navbar__list--mobile {
         width: 100%;
     }
@@ -53,7 +34,6 @@
     }
 
     .achieve__item__inner, .exper__item__inner {
-        width: 317px;
         max-width: 100%;
     }
 

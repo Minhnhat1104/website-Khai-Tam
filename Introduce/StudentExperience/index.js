@@ -1,10 +1,10 @@
-import students from "./students.js"
+import students from "../students.js"
 
 const contentInner = $('.content__inner')
 
 const renderStudent = function() {
     const studentsRender = students.map(student => `
-    <li class="exper__item">
+    <li class="exper__item wid-s-100">
         <div class="exper__item__inner">
             <div class="icon-and-text">
                 <i class="exper__icon far fa-comments"></i>

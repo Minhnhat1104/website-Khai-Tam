@@ -1,27 +1,8 @@
 import {
-  postTitle as postTitle1,
-  postText as postText1,
-  postImg as postImg1,
-} from "/News/Education/Post1/content.js";
+    educationPosts, KhaiTamPosts
+} from "/News/newsContent.js";
 
-import {
-  postTitle as postTitle2,
-  postBeforeText as postText2,
-  postImg as postImg2,
-} from "/News/Education/Post2/content.js";
-
-import {
-  postTitle as postTitle3,
-  postText as postText3,
-  postImg as postImg3,
-} from "/News/KhaiTamAcademy/Post1/content.js";
-import {
-  postTitle as postTitle4,
-  postBeforeText as postBeforeText4,
-  postImg as postImg4,
-} from "/News/KhaiTamAcademy/Post2/content.js";
-
-import students from "../Introduce/StudentExperience/students.js";
+import students from '/Introduce/students.js'
 
 
 // News
@@ -29,52 +10,49 @@ import students from "../Introduce/StudentExperience/students.js";
 function handlenews() {
     const newsList = $(".news__wrapper");
 
+    const twoEduPosts = []
+    for (let i = 0; i < 2; i++) {
+        const index = Math.floor(Math.random() * educationPosts.length)
+        const postString = `
+            <a href="/News/Education/Post${index+1}">
+                <li class="new__item">
+                    <img src="${educationPosts[index].postImg}" alt="news__img" class="new__img">
+                    <div class="new__content">
+                        <h2 class="new__title">${educationPosts[index].postTitle}</h2>
+                        <span class="new__subtitle">
+                            ${educationPosts[index].postText}
+                        </span>
+                    </div>
+                </li>
+            </a>
+        `
+        twoEduPosts.push(postString)
+    }
+
+    const twoKhaiTamPosts = []
+    for (let i = 0; i < 2; i++) {
+        const index = Math.floor(Math.random() * KhaiTamPosts.length)
+        const postString = `
+            <a href="/News/KhaiTamAcademy/Post${index+1}">
+                <li class="new__item">
+                    <img src="${KhaiTamPosts[index].postImg}" alt="news__img" class="new__img">
+                    <div class="new__content">
+                        <h2 class="new__title">${KhaiTamPosts[index].postTitle}</h2>
+                        <span class="new__subtitle">
+                            ${KhaiTamPosts[index].postText}
+                        </span>
+                    </div>
+                </li>
+            </a>
+        `
+        twoKhaiTamPosts.push(postString)
+    }
+
+
     newsList.innerHTML = `
     <ul class="news__list">
-        <a href="/News/Education/Post1">
-            <li class="new__item">
-                <img src="${postImg1}" alt="news__img" class="new__img">
-                <div class="new__content">
-                    <h2 class="new__title">${postTitle1}</h2>
-                    <span class="new__subtitle">
-                        ${postText1}
-                    </span>
-                </div>
-            </li>
-        </a>
-        <a href="/News/Education/Post2">
-            <li class="new__item">
-                <img src="${postImg2}" alt="news__img" class="new__img">
-                <div class="new__content">
-                    <h2 class="new__title">${postTitle2}</h2>
-                    <span class="new__subtitle">
-                        ${postText2}
-                    </span>
-                </div>
-            </li>
-        </a>
-        <a href="/News/KhaiTamAcademy/Post1">
-            <li class="new__item">
-                <img src="${postImg3}" alt="news__img" class="new__img">
-                <div class="new__content">
-                    <h2 class="new__title">${postTitle3}</h2>
-                    <span class="new__subtitle">
-                        ${postText3}
-                    </span>
-                </div>
-            </li>
-        </a>
-        <a href="/News/KhaiTamAcademy/Post2">
-            <li class="new__item">
-                <img src="${postImg4}" alt="news__img" class="new__img">
-                <div class="new__content">
-                    <h2 class="new__title">${postTitle4}</h2>
-                    <span class="new__subtitle">
-                        ${postBeforeText4}
-                    </span>
-                </div>
-            </li>
-        </a>
+        ${twoEduPosts.join("")}
+        ${twoKhaiTamPosts.join("")}
     </ul>
 
     `;
@@ -122,10 +100,45 @@ function handleExperience() {
     `
 }
 
+function handleAchieve() {
+    const threeRandomStudent = []
+    for (let i = 0; i < 3; i++) {
+        threeRandomStudent.push(students[Math.floor(Math.random() * students.length)])
+    }
+
+    const experWrapper = $('.achievement__wrapper')
+
+    const content = threeRandomStudent.map(student => `
+    <li class="achieve__item">
+        <div class="achieve__item__inner">
+            <img src="${student.url}"
+                alt="student'sImage" class="achieve__img">
+            <div class="achieve__content">
+                <div class="name-and-score">
+                    <span class="achieve__name">${student.name}</span>
+                    <span class="achieve__score">${student.score}</span>
+                </div>
+                <span class="achieve__school">${student.school}</span>
+                <span class="achieve__year">${student.year}</span>
+            </div>
+        </div>
+    </li>
+    `       
+    ).join("")
+
+    experWrapper.innerHTML = `
+    <h2 class="achieve__title">Thành tích ở Khai Tâm</h2>
+    <ul class="achievement__list">
+        ${content}
+    </ul>
+    `
+}
+
 
 function start() {
     handlenews();
     handleExperience();
+    handleAchieve();
 }
 
 start()

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -248,12 +249,13 @@
                         <a href="https://dgnlkhaitam.edubit.vn/">Đánh giá năng lực</a>
                     </li>
                 </ul>
+
             </div>
         </div>
 
         <div class="content__wrapper">
             <div class="content__inner">
-                
+
             </div>
         </div>
 
@@ -264,19 +266,25 @@
                     <li class="social__item">
                         <a class="social__link" href="https://www.facebook.com/luyenthikhaitam">
                             <i class="social__icon fab fa-facebook"></i>
-                            <span class="social__text">Facebook</span>
+                            <span class="social__text">
+                                Facebook
+                            </span>
                         </a>
                     </li>
                     <li class="social__item">
                         <a class="social__link" href="tel: +0909611861">
                             <i class="social__icon fas fa-phone-alt"></i>
-                            <span class="social__text">Điện thoại</span>
+                            <span class="social__text">
+                                Điện thoại
+                            </span>
                         </a>
                     </li>
                     <li class="social__item">
                         <a class="social__link" href="mailto:luyenthikhaitam@gmail.com">
                             <i class="social__icon fas fa-envelope"></i>
-                            <span class="social__text">Gmail</span>
+                            <span class="social__text">
+                                Gmail
+                            </span>
                         </a>
                     </li>
                 </ul>
@@ -285,6 +293,6 @@
     </div>
 </body>
 <script src='/Header_And_Footer/index.js'></script>
-<script type="module" src='./index.js'></script>
+<script src='./index.js'></script>
 
 </html>
